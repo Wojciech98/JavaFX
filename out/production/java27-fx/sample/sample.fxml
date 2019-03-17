@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" prefHeight="195.0" prefWidth="173.0" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.112" fx:controller="sample.Controller">
+  <Label GridPane.columnIndex="0" GridPane.rowIndex="0">asdasdasda</Label>
+  <Label GridPane.columnIndex="0" GridPane.rowIndex="1">asdasdasda</Label>
+  <Label GridPane.columnIndex="0" GridPane.rowIndex="2">asdasdasda</Label>
+  <Label GridPane.columnIndex="0" GridPane.rowIndex="3">asdasdasda</Label>
+
+  <Label GridPane.columnIndex="1" GridPane.rowIndex="0">asdasdasda</Label>
+  <Label GridPane.columnIndex="1" GridPane.rowIndex="1">asdasdasda</Label>
+  <Label GridPane.columnIndex="1" GridPane.rowIndex="2">asdasdasda</Label>
+  <Label GridPane.columnIndex="1" GridPane.rowIndex="3">asdasdasda</Label>
+  <Label GridPane.columnIndex="1" GridPane.rowIndex="4">asdasdasda</Label>
+
+  <Label>asdasdasdad</Label>
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>

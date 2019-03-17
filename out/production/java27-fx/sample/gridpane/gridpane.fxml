@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="CENTER" hgap="20" vgap="10" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1">
+  <!--<Label>asdasdasd</Label>-->
+
+  <padding>
+    <Insets bottom="15" left="5" top="10" />
+  </padding>
+
+  <!--header 1-->
+  <Label text="Header 1 aaaaaaaaaaaaaaaaaaaa" textFill="#ff00ff" GridPane.columnIndex="0" GridPane.columnSpan="5" GridPane.rowIndex="0" />
+
+  <!--wiersz 1-->
+  <Label text="value" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="1" />
+  <Label text="value" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+  <Label text="value" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+  <Label text="value" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+
+  <!--wiersz 2-->
+  <Label text="value" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="2" />
+  <Label text="value" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+  <Label text="value" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+  <Label text="value" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints maxWidth="116.0" minWidth="36.0" prefWidth="36.0" />
+      <ColumnConstraints maxWidth="100.0" minWidth="10.0" prefWidth="100.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+
+</GridPane>
